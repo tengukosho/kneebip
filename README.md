@@ -35,5 +35,5 @@ pip install -r requirements.txt
 
 ### 📁 Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/knee-angle-analyzer.git
-cd knee-angle-analyzer
+git clone https://github.com/tengukosho/kneebip.git
+cd kneebip
