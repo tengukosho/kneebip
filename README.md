@@ -4,14 +4,8 @@ This project is a real-time **knee angle measurement** system developed as a fin
 
 ---
 
-## 🎯 Project Purpose
-
-This project demonstrates how biomedical image processing can be used to create a non-invasive tool for gait and posture assessment. It provides real-time visualization, data recording, and automated analysis of knee joint angles.
-
----
-
 ## 📽️ Live Demo
-👉 [Launch the App on Streamlit Cloud](https://your-app-url.streamlit.app) *(replace with your actual app URL)*
+👉 [Launch the App on Streamlit Cloud](https://your-app-url.streamlit.app) 
 
 ---
 
