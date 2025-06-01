@@ -4,11 +4,6 @@ This project is a real-time **knee angle measurement** system developed as a fin
 
 ---
 
-## 📽️ Live Demo
-👉 [Launch the App on Streamlit Cloud](https://kneebip-a8hyqijxpq3sap7i9robp7.streamlit.app/) 
-
----
-
 ## 📦 Features
 
 - 🎥 Real-time webcam capture
@@ -20,7 +15,7 @@ This project is a real-time **knee angle measurement** system developed as a fin
 
 ---
 
-## 🧰 Technologies Used
+## 🧰 Packages Used
 
 - **Streamlit** – web interface and app hosting
 - **MediaPipe** – 2D pose estimation
