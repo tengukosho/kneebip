@@ -74,7 +74,7 @@ def run_gait_capture(output_csv_path):
     mp_drawing = mp.solutions.drawing_utils
     mp_pose = mp.solutions.pose
 
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(st.session_state.device_index)
     left_buffer = collections.deque(maxlen=5)
     right_buffer = collections.deque(maxlen=5)
     prev_time = 0
@@ -154,11 +154,14 @@ st.title("🦵 Knee Flexion/Extension Angle Measurement")
 # Session state setup
 if 'run_camera' not in st.session_state:
     st.session_state.run_camera = False
+# Camera device selector
+device_index = st.selectbox("Select Camera Device Index", options=list(range(5)), index=0, format_func=lambda i: f"Camera {i}")
 
 # Toggle button
 if not st.session_state.run_camera:
     if st.button("▶️ Start Capture"):
         st.session_state.run_camera = True
+        st.session_state.device_index = device_index
 else:
     if st.button("⏹️ Stop Capture"):
         st.session_state.run_camera = False
